@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/app.css" />
 	<link rel="stylesheet" href="css/jqx.base.css" />
-  
-  
-  
-  
+
+
+
+
   </head>
   <body>
 <div class="top-bar">
@@ -25,12 +25,13 @@
           <li><a href="#">Import</a></li>
         </ul>
       </li>
+      <li><a href="#">Campaign Management</a></li>
       <li><a href="#">Item DB</a></li>
       <li><a href="#">Monster DB</a></li>
     </ul>
   </div>
   <div class="top-bar-right">
-	
+
   </div>
 </div>
 
@@ -45,9 +46,9 @@
                <a href="#">
                   <img src="img/heroes/pDiva.png" alt="profile image"> </a>
             </div>
-            <div class="large-8 columns">
-               <h4>Diva</h4>
-               <p>Unstoppable force, meet the immovable object.</p>
+            <div class="large-8 columns" id="guild_char_01">
+               <h4>Add Player</h4>
+               <p></p>
             </div>
             <div class="row">
                <ul class="button-group expanded">
@@ -59,7 +60,7 @@
          </div>
       </div>
    </div>
-</div>	
+</div>
 			<div class="row">
 			<div class="large-6 columns">
 			<p><img src="img/AQ-Blank-Cards/Blank Card - Upgrade BACK Level 1.jpg"></p>
@@ -102,7 +103,7 @@
          </div>
       </div>
    </div>
-</div>	
+</div>
 				<div class="row">
 			<div class="large-6 columns">
 			<p><img src="img/AQ-Blank-Cards/Blank Card - Upgrade BACK Level 1.jpg"></p>
@@ -144,7 +145,7 @@
          </div>
       </div>
    </div>
-</div>	
+</div>
 				<div class="row">
 			<div class="large-6 columns">
 			<p><img src="img/AQ-Blank-Cards/Blank Card - Upgrade BACK Level 1.jpg"></p>
@@ -161,12 +162,154 @@
 			<p><img src="img/AQ-Blank-Cards/Blank Card - Upgrade BACK Level 1.jpg"></p>
 			</div>
 			</div>
-			</div>	
+			</div>
 
-					
+
 		</div>
-		
 
+    <div class="row">
+  		<p><a data-open="heroescore">hello</a></p>
+  	</div>
+
+  <div class="reveal" id="heroescore" data-reveal>
+  	<div class="row">
+  		<div class="expanded button-group">
+  			<a class="secondary button">Core</a>
+  			<a data-open="beyondgrave" class="success button">BtG / Extra</a>
+  			<a data-open="inferno" class="success button">Inferno</a>
+  		</div>
+  	</div>
+  	<div class="row">
+  		<div class="large-12">
+  			<div class="large-3 columns">
+          <a data-open="hero-diva"><img width="210" height="210" src="img/heroes/pDiva.png" /></a>
+  				<p>Diva</p>
+  			</div>
+  			<div class="large-3 columns">
+  				<img width="210" height="210" src="img/heroes/pGreensleeves.png" />
+  				<p>Greensleeves</p>
+  			</div>
+  			<div class="large-3 columns">
+  				<img width="210" height="210" src="img/heroes/pGrom.png" />
+  				<p>Grom</p>
+  			</div>
+  						<div class="large-3 columns">
+  				<img width="210" height="210" src="img/heroes/pHobsbawm.png" />
+  				<p>Hobsbawm</p>
+  			</div>
+  		</div>
+  	</div>
+  	<div class="row">
+  		<div class="large-12">
+  			<div class="large-3 columns">
+  			<img width="210" height="210" src="img/heroes/pJohan.png" />
+  				<p>Johan</p>
+  			</div>
+  			<div class="large-3 columns">
+  			<img width="210" height="210" src="img/heroes/pKanga.png" />
+  				<p>Kanga</p>
+  			</div>
+  			<div class="large-3 columns">
+  			<img width="210" height="210" src="img/heroes/pMaya.png" />
+  				<p>Maya</p>
+  			</div>
+  			<div class="large-3 columns">
+  			<img width="210" height="210" src="img/heroes/pScarlet.png" />
+  				<p>Scarlet</p>
+  			</div>
+  		</div>
+  	</div>
+  	<div class="row">
+  		<div class="large-12">
+  			<div class="large-3 columns">
+  			<img width="210" height="210" src="img/heroes/pSeth.png" />
+  				<p>Seth</p>
+  			</div>
+  			<div class="large-3 columns">
+  			<img width="210" height="210" src="img/heroes/pSpike.png" />
+  				<p>Spike</p>
+  			</div>
+  						<div class="large-3 columns">
+  			<img width="210" height="210" src="img/heroes/pWisp.png" />
+  				<p>Wisp</p>
+  			</div>
+  						<div class="large-3 columns">
+  			<img width="210" height="210" src="img/heroes/pZazu.png" />
+  				<p>Zazu</p>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+
+  <div class="reveal" id="beyondgrave" data-reveal>
+  	<div class="row">
+  		<div class="expanded button-group">
+  			<a data-open="heroescore" class="success button">Core</a>
+  			<a class="secondary button">BtG / Extra</a>
+  			<a data-open="inferno" class="success button">Inferno</a>
+  		</div>
+  	</div>
+  	<div class="row">
+  		<div class="large-12">
+  			<div class="large-3 columns">
+  				<img width="210" height="210" src="img/heroes/pChaz.png" />
+  				<p>Chaz</p>
+  			</div>
+  			<div class="large-3 columns">
+  				<img width="210" height="210" src="img/heroes/pDarryn.png" />
+  				<p>Darryn</p>
+  			</div>
+  			<div class="large-3 columns">
+  				<img width="210" height="210" src="img/heroes/pHassan.png" />
+  				<p>Hassan</p>
+  			</div>
+  						<div class="large-3 columns">
+  				<img width="210" height="210" src="img/heroes/pLeeroy.png" />
+  				<p>Leeroy</p>
+  			</div>
+  		</div>
+  	</div>
+  	<div class="row">
+  		<div class="large-12">
+  			<div class="large-3 columns">
+  			<img width="210" height="210" src="img/heroes/pMcHammer.png" />
+  				<p>McHammer</p>
+  			</div>
+  			<div class="large-3 columns">
+  			<img width="210" height="210" src="img/heroes/pNibbles.png" />
+  				<p>Nibbles</p>
+  			</div>
+  			<div class="large-3 columns">
+  			<img width="210" height="210" src="img/heroes/pYun.png" />
+  				<p>Yun</p>
+  			</div>
+  			<div class="large-3 columns">
+  			<img width="210" height="210" src="img/heroes/pZahra.png" />
+  				<p>Zahra</p>
+  			</div>
+  		</div>
+  		</div>
+  	</div>
+
+    <div class="reveal" id="hero-diva" data-reveal>
+    <div class="row">
+    	<div class="large-12">
+    			<p><img src="img/heroes/fDiva.jpg" /></p>
+    	</div>
+    </row>
+    	<div class="row">
+    		<div class="expanded button-group">
+    			<a data-open="heroescore" class="alert button">Back</a>
+    			<a class="success button" onclick="addGuildSelect01()">Select</a>
+    		</div>
+    	</div>
+    </div>
+
+<script>
+function addGuildSelect01() {
+  document.getElementById("guild_char_01").innerHTML = "<h4>Diva</h4><p>Unstoppable force, meet the immovable object.</p>"
+}
+</script>
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
