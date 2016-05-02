@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hero>
+	<int_id>1</int_id>
+	<id>001</id>
+	<name>Diva</name>
+	<desc>Unstoppable force, meet the immovable object.</desc>
+	<attack>4</attack>
+	<defense>4</defense>
+	<health>4</health>
+	<reroll>4</reroll>
+</hero>
+<hero>
+	<int_id>2</int_id>
+	<id>002</id>
+	<name>Grom</name>
+	<desc>FUCKING GROM BRO!!!!</desc>
+	<attack>2</attack>
+	<defense>2</defense>
+	<health>2</health>
+	<reroll>2</reroll>
+</hero>
