@@ -48,7 +48,7 @@
             </div>
             <div class="large-8 columns" id="guild_char_01">
                <h4>Add Player</h4>
-               <p></p>
+               <p> </p>
             </div>
             <div class="row">
                <ul class="button-group expanded">
@@ -168,8 +168,12 @@
 		</div>
 
     <div class="row">
-  		<p><a data-open="heroescore">hello</a></p>
+  		<p><a data-open="heroescore">Hero Modal</a></p>
   	</div>
+    <div class="row">
+  		<p><a data-open="heroesxml">Hero XML</a></p>
+  	</div>
+
 
   <div class="reveal" id="heroescore" data-reveal>
   	<div class="row">
@@ -304,6 +308,28 @@
     		</div>
     	</div>
     </div>
+
+    <div class="reveal" id="heroesxml" data-reveal>
+    	<div class="row">
+    		<div class="expanded button-group">
+    			<a class="secondary button">Core</a>
+    			<a data-open="beyondgrave" class="success button">BtG / Extra</a>
+    			<a data-open="inferno" class="success button">Inferno</a>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="large-12">
+          <xsl:for-each select="core">
+    			<div class="large-3 columns">
+            <a data-open="hero-{name}"><img width="210" height="210" src="{img}" /></a>
+    				<p><xsl:value-of select="name"/></p>
+    			</div>
+        </xsl:for-each>
+    </div>
+
+
+
+
 
 <script>
 function addGuildSelect01() {

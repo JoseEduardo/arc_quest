@@ -1,22 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<hero>
-	<int_id>1</int_id>
-	<id>001</id>
-	<name>Diva</name>
-	<desc>Unstoppable force, meet the immovable object.</desc>
-	<attack>4</attack>
-	<defense>4</defense>
-	<health>4</health>
-	<reroll>4</reroll>
-</hero>
-<hero>
-	<int_id>2</int_id>
-	<id>002</id>
-	<name>Grom</name>
-	<desc>FUCKING GROM BRO!!!!</desc>
-	<attack>2</attack>
-	<defense>2</defense>
-	<health>2</health>
-	<reroll>2</reroll>
-</hero>
+
+
+<core>
+	<hero>
+		<int_id>1</int_id>
+		<id>001</id>
+		<name>Diva</name>
+		<desc>Unstoppable force, meet the immovable object.</desc>
+		<attack>4</attack>
+		<defense>4</defense>
+		<health>4</health>
+		<reroll>4</reroll>
+		<img>img/heroes/pDiva.png</img>
+	</hero>
+	<hero>
+		<int_id>2</int_id>
+		<id>002</id>
+		<name>Greensleeves</name>
+		<desc>FUCKING Greensleeves BRO!!!!</desc>
+		<attack>2</attack>
+		<defense>2</defense>
+		<health>2</health>
+		<reroll>2</reroll>
+		<img>img/heroes/pDiva.png</img>
+	</hero>
+	<hero>
+		<int_id>3</int_id>
+		<id>003</id>
+		<name>Grom</name>
+		<desc>FUCKING GROM BRO!!!!</desc>
+		<attack>3</attack>
+		<defense>3</defense>
+		<health>3</health>
+		<reroll>3</reroll>
+		<img>img/heroes/pDiva.png</img>
+	</hero>
+	<hero>
+		<int_id>4</int_id>
+		<id>004</id>
+		<name>Hobsbawm</name>
+		<desc>FUCKING Hobabawm BRO!!!!</desc>
+		<attack>4</attack>
+		<defense>4</defense>
+		<health>4</health>
+		<reroll>4</reroll>
+		<img>img/heroes/pDiva.png</img>
+	</hero>
+	<hero>
+		<int_id>5</int_id>
+		<id>005</id>
+		<name>Johan</name>
+		<desc>FUCKING Johan BRO!!!!</desc>
+		<attack>5</attack>
+		<defense>5</defense>
+		<health>5</health>
+		<reroll>5</reroll>
+		<img>img/heroes/pDiva.png</img>
+	</hero>
+	<hero>
+		<int_id>2</int_id>
+		<id>002</id>
+		<name>Grom</name>
+		<desc>FUCKING GROM BRO!!!!</desc>
+		<attack>2</attack>
+		<defense>2</defense>
+		<health>2</health>
+		<reroll>2</reroll>
+	</hero>
+	<hero>
+		<int_id>2</int_id>
+		<id>002</id>
+		<name>Grom</name>
+		<desc>FUCKING GROM BRO!!!!</desc>
+		<attack>2</attack>
+		<defense>2</defense>
+		<health>2</health>
+		<reroll>2</reroll>
+	</hero>
+	<hero>
+		<int_id>2</int_id>
+		<id>002</id>
+		<name>Grom</name>
+		<desc>FUCKING GROM BRO!!!!</desc>
+		<attack>2</attack>
+		<defense>2</defense>
+		<health>2</health>
+		<reroll>2</reroll>
+	</hero>
+	<hero>
+		<int_id>2</int_id>
+		<id>002</id>
+		<name>Grom</name>
+		<desc>FUCKING GROM BRO!!!!</desc>
+		<attack>2</attack>
+		<defense>2</defense>
+		<health>2</health>
+		<reroll>2</reroll>
+	</hero>
+	<hero>
+		<int_id>2</int_id>
+		<id>002</id>
+		<name>Grom</name>
+		<desc>FUCKING GROM BRO!!!!</desc>
+		<attack>2</attack>
+		<defense>2</defense>
+		<health>2</health>
+		<reroll>2</reroll>
+	</hero>
+</core>
