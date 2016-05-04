@@ -1,0 +1,35 @@
+<html>
+<head>
+
+</head>
+<body>
+  <script>
+    function loadXMLdoc() {
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          myFunction(xmlhttp);
+        }
+      };
+      xmlhttp.open("GET", "heroes.xml", true);
+      xmlhttp.send();
+    }
+    function myFunction(xml) {
+      var i;
+      var xmlDoc = xml.responseXML;
+      var table = "<tr>
+      <th>
+      Hero
+      </th>
+      <th>
+      Description
+      </th>
+      </tr>;"
+      var x = xmlDoc = xmlDoc.getElementBysTagName("name");
+      for (i = 0; i <x.length; i++) {table += "<tr><td>" + x[i].getElementsByTagName("name")[0].nodeValue + "<td>
+      
+      </td>"}
+    }
+  </script>
+</body>
+</html>
